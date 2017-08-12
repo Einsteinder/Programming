@@ -1,0 +1,248 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA3C60AF1B16F59D00C392FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3C60AE1B16F59D00C392FB /* main.m */; };
+		AA3C60B71B16FE2700C392FB /* NSDate+ElapseDays.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3C60B61B16FE2700C392FB /* NSDate+ElapseDays.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA3C60A91B16F59D00C392FB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA3C60AB1B16F59D00C392FB /* OCExercise15.6-1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OCExercise15.6-1"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3C60AE1B16F59D00C392FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA3C60B51B16FE2700C392FB /* NSDate+ElapseDays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ElapseDays.h"; sourceTree = "<group>"; };
+		AA3C60B61B16FE2700C392FB /* NSDate+ElapseDays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ElapseDays.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA3C60A81B16F59D00C392FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA3C60A21B16F59D00C392FB = {
+			isa = PBXGroup;
+			children = (
+				AA3C60AD1B16F59D00C392FB /* OCExercise15.6-1 */,
+				AA3C60AC1B16F59D00C392FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA3C60AC1B16F59D00C392FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA3C60AB1B16F59D00C392FB /* OCExercise15.6-1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA3C60AD1B16F59D00C392FB /* OCExercise15.6-1 */ = {
+			isa = PBXGroup;
+			children = (
+				AA3C60AE1B16F59D00C392FB /* main.m */,
+				AA3C60B51B16FE2700C392FB /* NSDate+ElapseDays.h */,
+				AA3C60B61B16FE2700C392FB /* NSDate+ElapseDays.m */,
+			);
+			path = "OCExercise15.6-1";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA3C60AA1B16F59D00C392FB /* OCExercise15.6-1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA3C60B21B16F59D00C392FB /* Build configuration list for PBXNativeTarget "OCExercise15.6-1" */;
+			buildPhases = (
+				AA3C60A71B16F59D00C392FB /* Sources */,
+				AA3C60A81B16F59D00C392FB /* Frameworks */,
+				AA3C60A91B16F59D00C392FB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OCExercise15.6-1";
+			productName = "OCExercise15.6-1";
+			productReference = AA3C60AB1B16F59D00C392FB /* OCExercise15.6-1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA3C60A31B16F59D00C392FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "翁 旭扬";
+				TargetAttributes = {
+					AA3C60AA1B16F59D00C392FB = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = AA3C60A61B16F59D00C392FB /* Build configuration list for PBXProject "OCExercise15.6-1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA3C60A21B16F59D00C392FB;
+			productRefGroup = AA3C60AC1B16F59D00C392FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA3C60AA1B16F59D00C392FB /* OCExercise15.6-1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA3C60A71B16F59D00C392FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3C60AF1B16F59D00C392FB /* main.m in Sources */,
+				AA3C60B71B16FE2700C392FB /* NSDate+ElapseDays.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA3C60B01B16F59D00C392FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA3C60B11B16F59D00C392FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA3C60B31B16F59D00C392FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA3C60B41B16F59D00C392FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA3C60A61B16F59D00C392FB /* Build configuration list for PBXProject "OCExercise15.6-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3C60B01B16F59D00C392FB /* Debug */,
+				AA3C60B11B16F59D00C392FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA3C60B21B16F59D00C392FB /* Build configuration list for PBXNativeTarget "OCExercise15.6-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3C60B31B16F59D00C392FB /* Debug */,
+				AA3C60B41B16F59D00C392FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA3C60A31B16F59D00C392FB /* Project object */;
+}

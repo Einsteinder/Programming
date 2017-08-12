@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA610B1D1BD64CA8002F7B30 /* PianoMinFolk.c in Sources */ = {isa = PBXBuildFile; fileRef = AA610B1C1BD64CA8002F7B30 /* PianoMinFolk.c */; settings = {ASSET_TAGS = (); }; };
+		AA610B201BD64DF2002F7B30 /* folk_music_minor.c in Sources */ = {isa = PBXBuildFile; fileRef = AA610B1E1BD64DF2002F7B30 /* folk_music_minor.c */; settings = {ASSET_TAGS = (); }; };
+		AA610B211BD64DF2002F7B30 /* folk.c in Sources */ = {isa = PBXBuildFile; fileRef = AA610B1F1BD64DF2002F7B30 /* folk.c */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA03363E1BC8C58900E567B0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA0336401BC8C58A00E567B0 /* Computer Music */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Computer Music"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA610B1B1BD64C09002F7B30 /* convert3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = convert3.h; sourceTree = "<group>"; };
+		AA610B1C1BD64CA8002F7B30 /* PianoMinFolk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PianoMinFolk.c; sourceTree = "<group>"; };
+		AA610B1E1BD64DF2002F7B30 /* folk_music_minor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = folk_music_minor.c; sourceTree = "<group>"; };
+		AA610B1F1BD64DF2002F7B30 /* folk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = folk.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA03363D1BC8C58900E567B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0336371BC8C58900E567B0 = {
+			isa = PBXGroup;
+			children = (
+				AA0336421BC8C58A00E567B0 /* Computer Music */,
+				AA0336411BC8C58A00E567B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0336411BC8C58A00E567B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0336401BC8C58A00E567B0 /* Computer Music */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0336421BC8C58A00E567B0 /* Computer Music */ = {
+			isa = PBXGroup;
+			children = (
+				AA610B1E1BD64DF2002F7B30 /* folk_music_minor.c */,
+				AA610B1F1BD64DF2002F7B30 /* folk.c */,
+				AA610B1C1BD64CA8002F7B30 /* PianoMinFolk.c */,
+				AA610B1B1BD64C09002F7B30 /* convert3.h */,
+			);
+			path = "Computer Music";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA03363F1BC8C58900E567B0 /* Computer Music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0336471BC8C58A00E567B0 /* Build configuration list for PBXNativeTarget "Computer Music" */;
+			buildPhases = (
+				AA03363C1BC8C58900E567B0 /* Sources */,
+				AA03363D1BC8C58900E567B0 /* Frameworks */,
+				AA03363E1BC8C58900E567B0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Computer Music";
+			productName = "Computer Music";
+			productReference = AA0336401BC8C58A00E567B0 /* Computer Music */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0336381BC8C58900E567B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "翁 旭扬";
+				TargetAttributes = {
+					AA03363F1BC8C58900E567B0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = AA03363B1BC8C58900E567B0 /* Build configuration list for PBXProject "Computer Music" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA0336371BC8C58900E567B0;
+			productRefGroup = AA0336411BC8C58A00E567B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA03363F1BC8C58900E567B0 /* Computer Music */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA03363C1BC8C58900E567B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA610B1D1BD64CA8002F7B30 /* PianoMinFolk.c in Sources */,
+				AA610B201BD64DF2002F7B30 /* folk_music_minor.c in Sources */,
+				AA610B211BD64DF2002F7B30 /* folk.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA0336451BC8C58A00E567B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA0336461BC8C58A00E567B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA0336481BC8C58A00E567B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA0336491BC8C58A00E567B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA03363B1BC8C58900E567B0 /* Build configuration list for PBXProject "Computer Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0336451BC8C58A00E567B0 /* Debug */,
+				AA0336461BC8C58A00E567B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0336471BC8C58A00E567B0 /* Build configuration list for PBXNativeTarget "Computer Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0336481BC8C58A00E567B0 /* Debug */,
+				AA0336491BC8C58A00E567B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0336381BC8C58900E567B0 /* Project object */;
+}

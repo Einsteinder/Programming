@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>88686C62-D9C7-42EA-8BE5-E44E1F7C0C09</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DF4808E85E416B2C498E39F87B3305246BB3B82D</key>
+		<string>https://github.com/Einsteinder/-.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Copy/Copy.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DF4808E85E416B2C498E39F87B3305246BB3B82D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Einsteinder/-.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DF4808E85E416B2C498E39F87B3305246BB3B82D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DF4808E85E416B2C498E39F87B3305246BB3B82D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Programming</string>
+		</dict>
+	</array>
+</dict>
+</plist>

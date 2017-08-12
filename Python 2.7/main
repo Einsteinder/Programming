@@ -1,0 +1,11 @@
+from scikits.audiolab import oggwrite, play, oggread
+import numpy
+import numpy as np
+from scipy.spatial import distance
+import pandas
+import seaborn as sns
+import matplotlib.pyplot as plt
+coords = [1, 2,
+3, 4,
+5, -6,
+7,5,2,1]
